@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./exercise.js"></script>
+    <title>お問い合わせ</title>
+</head>
+<body>
+    <!--------------------------------------- ログイン画面 --------------------------------------->
+    <div class="login-bg">
+    </div>
+    <div class="login">
+        <div class="login-title">
+            <p>ログイン</p>
+        </div>
+        <form class="form" action="">
+            <input type="email" name="email" placeholder="メールアドレス">
+            <input type="password" name="password" placeholder="パスワード">
+            <a type="submit"><p>送 信</p></a>
+        </form>
+        <div class="icon-group">
+            <div class="icon-box">
+                <a href="">
+                    <div class="icon-box-img"><img src="./cafe/img/twitter.png"></div>
+                </a>
+            </div>
+            <div class="icon-box">
+                <a href="">
+                    <div class="icon-box-img"><img src="./cafe/img/fb.png"></div>
+                </a>
+            </div>
+            <div class="icon-box">
+                <a href="">
+                    <div class="icon-box-img"><img src="./cafe/img/google.png"></div>
+                </a>
+            </div>
+            <div class="icon-box">
+                <a href="">
+                    <div class="icon-box-img"><img src="./cafe/img/apple.png"></div>  
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------- header --------------------------------------->
+    <div class="contact-top">
+        <div id="header"></div>
+    </div>
+    <!--------------------------------------- contact --------------------------------------->
+    <div class="contact-main">
+        <div class="contact-group">
+            <form action="#">
+                <div class="contact-title">
+                    <p>お問い合わせ</p>
+                </div>
+                <div class="contact-box">
+                    <div class="contact-about">
+                        <p>
+                        下記の項目をご記入の上送信ボタンを押してください
+                        </p>
+                    </div>
+                    <div class="contact-text">
+                        <p>
+                            送信頂いた件につきましては、当社より折り返しご連絡を差し上げます。<br>
+                            なお、ご連絡までに、お時間を頂く場合もございますので予めご了承ください。<br>
+                            <span>*</span>は必須項目となります。
+                        </p>
+                    </div>
+                    <div class="contact-name1">
+                        <label for="">氏名<span>*</span></label>
+                        <input type="text" name="name1" placeholder="山田太郎">
+                    </div>
+                    <div class="contact-name2">
+                        <label for="">フリガナ<span>*</span></label>
+                        <input type="text" name="name2" placeholder="ヤマダタロウ">
+                    </div>
+                    <div class="contact-number">
+                        <label for="">電話番号</label>
+                        <input type="text" name="number" placeholder="09012345678">
+                    </div>
+                    <div class="contact-mail">
+                        <label for="">メールアドレス<span>*</span></label>
+                        <input type="text" name="mail" placeholder="test@test.co.jp">
+                    </div>
+                    <div class="contact-about">
+                        <p>
+                        お問合せ内容をご記入ください<span>*</span>
+                        </p>
+                    </div>
+                    <div class="contact-content">
+                        <textarea name="content"></textarea>
+                    </div>
+                    <div class="contact-button">
+                        <input class="send-button" type="submit" value="送 信">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--------------------------------------- footer --------------------------------------->
+    <div id="footer"></div>
+    
+</body>
+</html>

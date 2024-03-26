@@ -1,0 +1,84 @@
+.contact-top {
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+}
+span {
+    color: red;
+}
+input {
+    height: 40px;
+    border-radius: 10px;
+    border: gray solid 1px;
+}
+textarea {
+    border: gray solid 1px;
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+.contact-main {
+    width: 70%;
+    margin: 40px auto;
+    border: solid gray 1px;
+    border-radius: 20px;
+}
+.contact-group {
+}
+.contact-title {
+    text-align: center;
+    border-bottom: solid gray 1px;
+}
+.contact-title p {
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact-box {
+    margin: 20px;
+}
+.contact-about {
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+.contact-about p {
+    margin: 0;
+}
+.contact-text {
+
+}
+.contact-text p {
+    font-size: 14px;
+    line-height: 16px;
+}
+.contact-name1 {
+    display: flex;
+    flex-direction: column;
+}
+.contact-name2 {
+    display: flex;
+    flex-direction: column;
+}
+.contact-number {
+    display: flex;
+    flex-direction: column;
+}
+.contact-mail {
+    display: flex;
+    flex-direction: column;
+}
+.contact-button {
+}
+.send-button {
+    border: none;
+    background-color: rgb(215, 4, 102);
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+}
